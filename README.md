@@ -80,4 +80,4 @@ npm run start
 
 
 
-Thanks to vema-kunal [https://github.com/verma-kunal]
+Thanks to the collaborater vema-kunal [https://github.com/verma-kunal]
