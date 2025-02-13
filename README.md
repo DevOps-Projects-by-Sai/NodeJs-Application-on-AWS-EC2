@@ -4,7 +4,7 @@
 
 1. Clone this project
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com/DevOps-Projects-by-Sai/NodeJs-Application-on-AWS-EC2.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
@@ -52,7 +52,7 @@ sudo apt install npm
 
 1. Clone this project in the remote VM
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com/DevOps-Projects-by-Sai/NodeJs-Application-on-AWS-EC2.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
@@ -77,3 +77,7 @@ npm run start
 > You can access the project by **PublicIPAddress:Portrange**
 
 ### Project is deployed on AWS 🎉
+
+
+
+Thanks to vema-kunal [https://github.com/verma-kunal]
