@@ -41,6 +41,10 @@ ssh -i instance.pem ubunutu@<IP_ADDRESS>
 ```
 sudo apt update
 ```
+2. Install npm in the EC2 instance
+```
+sudo apt install npm
+```
 3. Install Git - [Guide by DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-22-04) 
 4. Configure Node.js and `npm` - [Guide by DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
 
@@ -68,5 +72,8 @@ npm run start
 ```
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
+> To edit the **inbound rules** -> Select Instance in AWS EC2 -> Security -> Security groups [Click on the one which is available] -> Edit Inbound rules
+> Add rule -> Custom TCP -> Portrange [3000] -> Select 0.0.0.0/0 in search bar -> Save Rules
+> You can access the project by **PublicIPAddress:Portrange**
 
 ### Project is deployed on AWS 🎉
